@@ -83,7 +83,7 @@ body {
 
 .bloc-text-about {
     width: 24%;
-    padding: 10% 13%;
+    padding: 7% 13%;
 }
 
 .bloc-text-about>img {
@@ -172,4 +172,62 @@ body {
 
 .chart-block {
     display: flex;
+}
+
+.bloc-text-services {
+    padding: 0 13%;
+    width: 35%;
+}
+
+.text-resad {
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.circles-section {
+    width: 55%;
+    margin: 10% auto;
+}
+
+.img-text, .text-img {
+    align-items: center;
+    display: flex;
+    margin: 10% 0;
+}
+
+.name-circle {
+    color: #070215;
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+}
+
+.text-circle {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text-circle>hr {
+    background-color: black;
+    border: none;
+    margin: 5% 0;
+    width: 106px;
+    height: 1px;
+}
+
+.text {
+    opacity: 0.9;
+    color: #000000;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.35px;
 }
