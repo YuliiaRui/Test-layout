@@ -6,7 +6,8 @@ body {
 .border {
     margin: 0 5%;
     height: 100%;
-    border: 1px white solid;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
 }
 
 .title-list {
@@ -48,4 +49,127 @@ body {
     font-weight: bold;
     line-height: 14px;
     letter-spacing: 2px;
+}
+
+.language {
+    text-align: center;
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.language>li {
+    margin-left: 2%;
+    opacity: 0.2;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26.37px;
+    letter-spacing: 0.4px;
+}
+
+.language>li:hover {
+    cursor: pointer;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.menu>p {
+
+}
+
+.bloc-text-about {
+    width: 24%;
+    padding: 10% 13%;
+}
+
+.bloc-text-about>img {
+    margin: -30%;
+}
+
+.about-resad {
+    margin: 10% 0;
+    color: #070215;
+    font-family: "Fira Sans";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2.43px;
+}
+
+.text-resad {
+    color: #000000;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+}
+
+.offices {
+    width: 138px;
+    height: 134px;
+    box-shadow: 0 0 4px 2px rgba(58, 29, 122, 0.05);
+    border: 1px solid #070115;
+    background-color: #f0f0f5;
+    opacity: 0.1;
+    margin: 25% 0 -10% 75%;
+}
+
+.founded {
+    width: 320px;
+    height: 179px;
+    box-shadow: 0 0 4px 2px rgba(58, 29, 122, 0.05);
+    border: 1px solid #111227;
+    background-color: #f0f0f5;
+    opacity: 0.4;
+    margin: -10% 0 0% -10%;
+}
+
+.developers {
+    width: 293px;
+    height: 132px;
+    box-shadow: 0 0 4px 2px rgba(58, 29, 122, 0.05);
+    border: 1px solid #070115;
+    background-color: #f0f0f5;
+    opacity: 0.3;
+    margin: -25% 0 0 72%;
+}
+
+.projects {
+    width: 166px;
+    height: 253px;
+    box-shadow: 0 0 4px 2px rgba(58, 29, 122, 0.05);
+    border: 1px solid #070115;
+    background-color: #f0f0f5;
+    opacity: 0.1;
+    margin: -25% 0 0 45%;
+}
+
+.name-block {
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 41.41px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+}
+
+.number {
+    color: #18003f;
+    font-family: "Fira Sans";
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 41.41px;
+    letter-spacing: 1.42px;
+}
+
+.chart-block {
+    display: flex;
 }
