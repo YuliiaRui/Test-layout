@@ -354,6 +354,7 @@ body {
     width: 70px;
     height: 2px;
     background-color: #3e00a5;
+    margin: initial;
 }
 
 .benefits {
@@ -375,4 +376,17 @@ body {
 
 .benefit-block {
     margin: 0 10%;
+}
+
+.line-text>p {
+    margin: 0 20px;
+}
+
+.icons-technologies {
+    margin: 5% auto;
+    text-align: center;
+}
+
+.icons>img {
+    margin: 2%;
 }
