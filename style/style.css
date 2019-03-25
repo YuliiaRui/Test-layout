@@ -1,7 +1,68 @@
 body {
     background: url("../img/Background.png");
     height: 7089px;
+}
 
+
+.box {
+    position: relative;
+    width: 225px;
+    height: 70px;
+    color: #ffffff;
+    margin: 13% auto;
+}
+
+.box-angle {
+    position: absolute;
+    width: 200px;
+    height: 2px;
+}
+
+.box-angle::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 50px;
+}
+
+.box-angle-top,
+.box-angle-top::before {
+    top: 0;
+}
+.box-angle-left,
+.box-angle-left::before {
+    left: 0;
+}
+.box-angle-right,
+.box-angle-right::before {
+    right: 0;
+}
+
+.box-angle-bottom,
+.box-angle-bottom::before {
+    bottom: 0;
+}
+
+.box-angle.box-angle-top,
+.box-angle.box-angle-top::before {
+    background-color: #9a9a9a;
+    box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.07);
+}
+
+.box-angle.box-angle-bottom,
+.box-angle.box-angle-bottom::before {
+    background-color: #9a9a9a;
+    box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.07);
+}
+
+.box p {
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    font-family: Fira Sans, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .border {
@@ -12,7 +73,7 @@ body {
 }
 
 .title-list {
-    height: 640px;
+    height: 100%;
     background-image: url("../img/fon-title.png");
     background-position: center center;
 }
@@ -25,37 +86,20 @@ body {
     line-height: 42px;
     text-align: center;
     letter-spacing: 3px;
-    margin: 17% 0 5%;
+    margin: 10% 0 8%;
 }
 
 .logo {
     text-align: center;
 }
 
-.button {
-
-    width: 203px;
-    height: 50px;
-    box-shadow: 0 0 13px 4px rgba(255, 255, 255, 0.07);
-    color: #ffffff;
-    margin: 5% auto;
-}
-
-.button-text {
-    font-family: Fira Sans, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 14px;
-    letter-spacing: 2px;
-}
-
 .language {
     text-align: center;
     color: white;
     display: flex;
-    list-style: none;
     justify-content: center;
-    padding: 0;
+    margin: 5%;
+
 }
 
 .language>li {
@@ -67,6 +111,7 @@ body {
     font-weight: 300;
     line-height: 26.37px;
     letter-spacing: 0.4px;
+    list-style: none;
 }
 
 .language>li:hover {
@@ -318,6 +363,11 @@ body {
 
 .brand>img {
     margin: 2% 5%;
+}
+
+.blue-button {
+    color: #3e00a5;
+
 }
 
 .black-block {
