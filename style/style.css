@@ -3,6 +3,50 @@ body {
     height: 7089px;
 }
 
+.open-menu {
+    position: absolute;
+    padding: 10%;
+    background-color: #070215;
+    opacity: 0.9;
+    display: none;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+
+.close-btn {
+    font-family: "Fira Sans - Extra Light", sans-serif;
+    font-size: xx-large;
+    text-align: end;
+    color: #ffffff;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+}
+
+.title-menu {
+    font-family: "Fira Sans - Extra Light",  sans-serif ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+a:hover {
+    color: #2c2c2c;
+}
+
+.block-open-menu {
+    text-align: center;
+}
 
 .box {
     position: relative;
